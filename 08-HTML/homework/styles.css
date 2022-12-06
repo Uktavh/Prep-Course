@@ -1,0 +1,62 @@
+.divClass,#thirdDiv{
+    text-align: center; /*alineacion texto centro*/
+}
+
+h1{
+     color: rgb(120, 15, 15); /*color de texto*/
+}
+
+#blur0 {
+    background-color: rgba(255, 0, 0, 0.416); /*color de fondo de content + transparencia para leer mejor sobre img de fondo*/
+    -webkit-backdrop-filter: blur(10px); /*comando con compatibilidad para fondo de content borroso*/
+    backdrop-filter: blur(10px); /*comando para fondo de content borroso*/
+    padding: 50px; /*espacio de separacion entre borde y content*/
+}
+
+#blur1 {
+    display: flex; /*regla de posicionamiento*/
+    flex-direction: column; /*disposicion de posicionamiento */
+    align-items: center; /*alineacion*/
+}
+
+#spanId {
+    font-size: 18px; /*tamaño de fuente*/
+    margin: 50px; /*espacio extra sobre recuadro content*/
+    background-color: rgba(255, 0, 0, 0.416); /*color de fondo de content + transparencia para leer mejor sobre img de fondo*/
+    -webkit-backdrop-filter: blur(10px); /*comando con compatibilidad para fondo de content borroso*/
+    backdrop-filter: blur(10px); /*comando para fondo de content borroso*/
+    padding: 50px; /*espacio de separacion entre borde y content*/
+}
+
+#thirdDiv {
+    height: 600px; /*tamaño de div en altura*/
+    width: 500px; /*tamaño de div en anchura*/
+    background-color: rgba(222, 184, 135, 0.354); /*color de fondo de content + transparencia para leer mejor sobre img de fondo*/
+    padding: 50px; /*espacio de separacion entre borde y content*/
+    border: 5px double brown; /*borde doble alrededor de content afectado por padding*/
+    -webkit-backdrop-filter: blur(10px); /*comando con compatibilidad para fondo de content borroso*/
+    backdrop-filter: blur(10px); /*comando para fondo de content borroso*/
+    margin: 0 auto; /*espacio extra sobre recuadro content*/
+}
+
+#linkrestaurant {
+    font-size: 18px; /*tamaño de fuente*/
+    margin: 0 50px 50px 50px; /*espacio extra sobre recuadro content menos en el margen superior*/
+    background-color: rgba(255, 0, 0, 0.416); /*color de fondo de content + transparencia para leer mejor sobre img de fondo*/
+    -webkit-backdrop-filter: blur(10px); /*comando con compatibilidad para fondo de content borroso*/
+    backdrop-filter: blur(10px); /*comando para fondo de content borroso*/
+    padding: 50px; /*espacio de separacion entre borde y content*/
+}
+
+.imgf {
+    margin-top: 10px; /*la foto genera un margen superior para separase del content texto y leerse mejor*/
+}
+
+img {
+    width: 400px; /*tamaño de div en anchura*/
+}
+
+body { 
+    background-image: url("https://img.freepik.com/vector-gratis/bon-appetit-patron-fondo-transparente-ingredientes-dispersos-utensilios-cocina-hacer-pasta-ravioles-italianos-formato-cuadrado-adecuado-papel-tapiz-tela_1284-44086.jpg?w=2000"); /*img fondo de pagina*/
+    background-size: cover; /*Escala img al mayor tamaño posible sin estirarla, pero cortandola si es necesario.*/
+}
